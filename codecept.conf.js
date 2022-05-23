@@ -2,7 +2,7 @@ exports.config = {
   output: './output',
   helpers: {
     WebDriver: {
-      url: 'http://localhost',
+      url: 'https://www.saucedemo.com/',
       browser: 'chrome'
     }
   },
@@ -21,7 +21,12 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true
-    }
+    },
+    
+    wdio: {
+      enabled: true,
+      services: ['selenium-standalone']
+}
   },
   stepTimeout: 0,
   stepTimeoutOverride: [{
@@ -34,5 +39,5 @@ exports.config = {
     }
   ],
   tests: './*_test.js',
-  name: 'swaglabdemo'
+  name: 'Swag Labs Demo'
 }
