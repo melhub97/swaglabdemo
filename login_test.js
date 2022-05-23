@@ -18,3 +18,5 @@ Scenario('User should be able to login', ({ I }) => {
     I.see('THANK YOU FOR YOUR ORDER') // order is successful and thank you message is disolayed
 
 });
+
+//
