@@ -1,0 +1,26 @@
+{
+  "name": "swaglabdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melhub97/swaglabdemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melhub97/swaglabdemo/issues"
+  },
+  "homepage": "https://github.com/melhub97/swaglabdemo#readme",
+  "description": "",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^7.19.5"
+  },
+  "dependencies": {
+    "codeceptjs-webdriverio": "^1.1.0"
+  }
+}
